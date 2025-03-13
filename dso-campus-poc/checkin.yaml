@@ -9,8 +9,8 @@ deployments:
     template: default
     helm_repository:
       create: false
-      name: sarath-helm
-      namespace: flux-system
+      name: chart-repo4
+      namespace: default
     clusters:
       fluxdc:
         state: active
